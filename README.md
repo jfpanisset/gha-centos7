@@ -16,4 +16,7 @@ This repo demonstrates how to use "unofficial" NodeJS builds such as
 [node-v20.18.1-linux-x64-glibc-217.tar.gz](https://unofficial-builds.nodejs.org/download/release/v20.18.1/node-v20.18.1-linux-x64-glibc-217.tar.gz)
 to allow 2022 and older `aswf-docker` images to keep running.
 
+Based on:
 
+https://github.com/actions/runner/issues/2906
+https://github.com/dixyes/ghactionsplay/blob/main/.github/workflows/glibc217node20.yml

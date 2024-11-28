@@ -27,3 +27,12 @@ jobs:
       - name: this works
         if: always()
         uses: actions/checkout@v4
+        run: |
+          echo "#### README.md #####################"
+          cat README.md
+          echo "#### redhat-release ################"
+          cat /etc/redhat-release
+          echo "#### gcc location ##################"
+          which gcc
+          echo "#### gcc version ###################"
+          gcc -v
