@@ -8,7 +8,7 @@ jobs:
     name: test
     runs-on: ubuntu-latest
     container:
-      image: 'aswf:ci-common:2'
+      image: 'aswf/ci-common:2'
       volumes:
         - /node20217:/node20217:rw,rshared
         - /node20217:/__e/node20:ro,rshared
